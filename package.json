@@ -4,9 +4,10 @@
   "description": "This is foolifish07's template for  vue + webpack + bootstrap (T-T) I just use cdn",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --inline --port 8888",
-    "build": "webpack -p",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "dev": "webpack-dev-server --hot --inline --port 8888 --config build/webpack.dev.config.js",
+    "build": "webpack -p --config build/webpack.prod.config.js",
   },
   "repository": {
     "type": "git",
