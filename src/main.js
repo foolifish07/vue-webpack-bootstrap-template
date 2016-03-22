@@ -5,8 +5,10 @@ Vue.config.debug = true;
 
 new Vue({
 	el: 'body',
-	data: {
-		msg: 'msg'
+	data(){
+		return {
+			msg : 'ssssss'
+		}
 	},
 	components: {
 		App

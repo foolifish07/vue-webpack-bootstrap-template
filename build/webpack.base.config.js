@@ -1,6 +1,6 @@
 var path = require('path');
-var srcPath = path.join(__dirname, 'src');
-var distPath = path.join(__dirname, 'dist');
+var srcPath = path.join(__dirname, '../src');
+var distPath = path.join(__dirname, '../dist');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
         //vue: ['vue']
 	},
 	output: {
-		path: distPath,
+		path: './dist',
 		filename: '[name].[hash].js'
 	},
 
@@ -28,7 +28,7 @@ module.exports = {
     vue: {
         loaders: {
             css: 'style!css!autoprefixer!less'
-        }
+        },
     },
     babel: {
         presets: ['es2015'],
@@ -39,8 +39,8 @@ module.exports = {
         //extensions: ['', '.js', '.vue'],
         // global name 
         alias: {
-            filter: path.join(__dirname, './src/filters'),
-            components: path.join(__dirname, './src/components')
+            filter: './src/filters',
+            components: './src/components',
         },
     },
     devtool: '#source-map',
