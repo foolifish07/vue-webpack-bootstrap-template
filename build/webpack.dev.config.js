@@ -1,5 +1,5 @@
 var config = require('./webpack.base.config.js')
-
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 config.output = {
 	path: './dist',
@@ -28,7 +28,7 @@ config.plugins = [
 	    template: 'src/index.html',
 	    inject: 'body' 
     })
-]
+];
 config.devtool = 'eval-source-map'
 
 
