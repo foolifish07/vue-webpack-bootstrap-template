@@ -6,17 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My webpack vue</title>
 
-    <!--link href="bootstrap.min.css" rel="stylesheet"-->
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- bootstrap3 -->
+    <!--link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"-->
+    <!-- bootstrap4 -->
+    <link rel="stylesheet" href="http://wiki.jikexueyuan.com/project/bootstrap4/dist/
+        css/bootstrap.min.css">
+
 </head>
 <body>
 
-    {{ msg }}
-	<app></app>
+    <div id="app">
+        <router-view></router-view>
+    </div>
 
+    <!-- bootstrap3 -->
 	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!--script src="dist/vue.js"></script-->
+    <!-- bootstrap4 -->
+
 
 </body>
 </html>
