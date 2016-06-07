@@ -1,21 +1,9 @@
 import Vue from 'vue'
+
 import App from './components/App.vue'
 
 Vue.config.debug = true;
 
-new Vue({
-	el: 'body',
-	data(){
-		return {
-			msg : 'ssssss'
-		}
-	},
-	components: {
-		App
-	}
-})
-
-import App from './App.vue'
 
 Vue.use(VueRouter);
 
@@ -32,13 +20,12 @@ router.beforeEach(function (transition) {
 })
 
 router.map({
-
     '/': {
         component: App,
         subRoutes: {
             '/index': {
                 name: 'index',
-                component: Index,
+                component: null,
             },
         }
     }
