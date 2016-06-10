@@ -1,5 +1,8 @@
 # Dependency directory
-node_modules
+node_modules/*
 
-# build result
-dist
+# result directory
+dist/*
+
+# log 
+*.log
