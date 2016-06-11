@@ -43,13 +43,7 @@ module.exports = {
             components: './src/components',
         },
     },
-    devtool: '#source-map',
-    devServer: {
-        historyApiFallback: true,
-        hot: true,
-        inline: true,
-        progress: true,
-    },
+    
     plugins: [
         new HtmlWebpackPlugin({  // Also generate a test.html
           filename: 'index.html',

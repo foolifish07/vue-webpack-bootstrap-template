@@ -1,10 +1,10 @@
-var config = require('./webpack.base.config')
+var config = require('./webpack.base.config');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 config.output = {
 	path: './dist',
-	filename: '[name].js'
-},
+	filename: '[name].js',
+};
 config.plugins = [
 	new HtmlWebpackPlugin({  
 	    filename: 'index.html',
