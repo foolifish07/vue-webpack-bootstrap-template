@@ -1,8 +1,9 @@
 # Dependency directory
-node_modules
+/node_modules
 
 # result directory
 /dist/*
+!/dist/.gitignore
 
 # log 
 *.log
