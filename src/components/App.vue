@@ -18,7 +18,6 @@
 		<router-view></router-view>
 
 	</div>
-	<canvas width="1301" height="659">
 
 </template>
 
@@ -35,7 +34,7 @@
 						{name: 'Contact', link: 'contact'},
 					],
 				},
-				music_url: 'http://cc.stream.qqmusic.qq.com/C200004Bzogh02UROw.m4a?vkey=5D0FBA9C8DC118F3B9DB9F1E1F9533843FDD3D74E0F2B003ED4E0FABD33957AB67BBBFA8ADCF4735835E7CE2F3A9C3EA5E39658E6D37E8CC&guid=5165864343&fromtag=30'
+				music_url: 'http://m6.file.xiami.com/816/121816/554989/1771460868_3899664_h.mp3?auth_key=783b598cb288d4dfe3926b168b472a8c-1465948800-0-null'
 			}
 		}
 	}

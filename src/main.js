@@ -54,7 +54,7 @@ router.map({
     }
 })
 router.redirect({
-  //'/': '/index',
+  '/': '/index',
   //'/manager': '/manager/info',
 })
 

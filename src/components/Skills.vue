@@ -11,7 +11,7 @@
 			</template>
 		</dl>
 	</div>
-	<img src="http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/15794172.jpg"
+	<img src="http://i4.buimg.com/93555c611475c896.jpg"
 		style="width:100%">
 </template>
 

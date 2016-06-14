@@ -9,7 +9,7 @@
 		</template>
 
 
-		<div class="carousel slide center-block" style="width: 800px;">
+		<div class="carousel slide center-block" style="width: 100%;">
 		  <ol class="carousel-indicators">
 		    <template v-for="item in carousels" track-by="$index">
 		    	<li v-bind:class="[current==$index?'active':'' ]"
@@ -52,17 +52,17 @@
 				],
 				carousels: [
 					{ title: '我', 
-						href: 'http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/35455498.jpg' },
+						href: 'http://i4.buimg.com/462b8f763ec66b60.jpg' },
 					{ title: '我女票', 
-						href: 'http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/40247305.jpg' },
+						href: 'http://i4.buimg.com/04edcdee13c7bc9e.jpg' },
 					{ title: '灭绝师太', 
-						href: 'http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/37566766.jpg' },
+						href: 'http://i4.buimg.com/6687a6612022e22e.jpg' },
 					{ title: '我前女友', 
-						href: 'http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/57376858.jpg' },
+						href: 'http://i4.buimg.com/a3b55ae8529ca91c.jpg' },
 					{ title: '我的宝剑', 
-						href: 'http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/67027978.jpg' },
+						href: 'http://i4.buimg.com/f5f92cd453ebdb94.png' },
 					{ title: '被我干掉的大魔王成昆', 
-						href: 'http://7xrn7f.com1.z0.glb.clouddn.com/16-6-10/91376465.jpg' },
+						href: 'http://i4.buimg.com/6f558ced6dc04a95.jpg' },
 				],
 				current: 0,
 			}
